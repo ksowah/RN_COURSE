@@ -2,6 +2,7 @@ import LessonTwo from "@/components/lesson-02";
 import LessonThree from "@/components/lesson-03";
 import LessonFour from "@/components/lesson-04";
 import LessonFive from "@/components/lesson-05";
+import LessonSix from "@/components/lesson-06";
 import { StyleSheet, View } from "react-native";
 
 export default function Index() {
@@ -10,7 +11,8 @@ export default function Index() {
       {/* <LessonTwo /> */}
       {/* <LessonThree /> */}
       {/* <LessonFour /> */}
-      <LessonFive />
+      {/* <LessonFive /> */}
+      <LessonSix />
     </View>
   );
 }
